@@ -1,0 +1,92 @@
+{
+  "number": 16,
+  "title": "Automated IT Helpdesk Chatbot",
+  "slug": "automated-it-helpdesk-chatbot",
+  "start": "2025-09-29",
+  "end": "2025-10-16",
+  "repo": "patrickloeber/pytorch-chatbot",
+  "branch": "master",
+  "license": "MIT",
+  "note": "Compact feed-forward intent chatbot tutorial; customize intents for IT support and add a UI if needed.",
+  "sha": "08dc94d0363175c79966646c3858b4caf40821f0",
+  "archive_sha256": "d8c860a5b099abf58c1d7474c51bc08b3c0387caf84cfb6b9d2a9c230d4fee32",
+  "imported_at": "2026-10-28T21:31:45.629111+00:00",
+  "history": "Reconstructed import history; dates are not dates of original development.",
+  "upstream_files": {
+    "upstream/.gitignore": {
+      "sha256": "5ba120059ac441387d84ac817fc4bf09cf388af3353f7c3253fdaae6541534b8",
+      "mode": "100644",
+      "bytes": 2034
+    },
+    "upstream/LICENSE": {
+      "sha256": "dadf7eff35877dae690f6ca1a15b4c5b1853b06932a5492430c61e83b8035b18",
+      "mode": "100644",
+      "bytes": 1071
+    },
+    "upstream/README.md": {
+      "sha256": "8bf4cb360a351b4faf404543cfec3c4c3510214431987c760249912e56b45a17",
+      "mode": "100644",
+      "bytes": 2280
+    },
+    "upstream/chat.py": {
+      "sha256": "b0a11582523c400d8d11da3ebfa5c8d3b6b06de3b3f3aff7b5e4e3ebcf67f559",
+      "mode": "100644",
+      "bytes": 1372
+    },
+    "upstream/intents.json": {
+      "sha256": "3c339d410d68bc33a123a98334b5ac6e674be3473a291cea5504d1db7f57ac50",
+      "mode": "100644",
+      "bytes": 2015
+    },
+    "upstream/model.py": {
+      "sha256": "140130c41005f9eda2a96e2dfab58a04c2ac7adb959d37f96491426acdaddb11",
+      "mode": "100644",
+      "bytes": 598
+    },
+    "upstream/nltk_utils.py": {
+      "sha256": "16080d50c59a8d765c588c346403b5ef78737eca69113b53a1927eb0223c6271",
+      "mode": "100644",
+      "bytes": 1201
+    },
+    "upstream/train.py": {
+      "sha256": "78f5c0e8651c7c6eabbeb6e53162e2aa3de02312e0a41230a6d62df65f605951",
+      "mode": "100644",
+      "bytes": 3380
+    }
+  },
+  "excluded_git_metadata": [],
+  "history_repair": {
+    "pattern": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "approved_calendar": true,
+    "seed": 20251028,
+    "previous_main": "e54942fc136220e667e0dcff70a41680fd666069",
+    "daily_counts": {
+      "2025-09-29": 3,
+      "2025-09-30": 3,
+      "2025-10-01": 0,
+      "2025-10-02": 1,
+      "2025-10-03": 0,
+      "2025-10-04": 4,
+      "2025-10-05": 0,
+      "2025-10-06": 0,
+      "2025-10-07": 1,
+      "2025-10-08": 5,
+      "2025-10-09": 1,
+      "2025-10-10": 0,
+      "2025-10-11": 2,
+      "2025-10-12": 2,
+      "2025-10-13": 2,
+      "2025-10-14": 2,
+      "2025-10-15": 5,
+      "2025-10-16": 5
+    },
+    "description": "Reconstructed import timestamps; not original development dates."
+  }
+}
