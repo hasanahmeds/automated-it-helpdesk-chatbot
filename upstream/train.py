@@ -28,3 +28,13 @@ for intent in intents['intents']:
         # add to xy pair
         xy.append((w, tag))
 
+# stem and lower each word
+ignore_words = ['?', '.', '!']
+all_words = [stem(w) for w in all_words if w not in ignore_words]
+# remove duplicates and sort
+all_words = sorted(set(all_words))
+tags = sorted(set(tags))
+
+print(len(xy), "patterns")
+print(len(tags), "tags:", tags)
+print(len(all_words), "unique stemmed words:", all_words)
