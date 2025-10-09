@@ -38,3 +38,8 @@ tags = sorted(set(tags))
 print(len(xy), "patterns")
 print(len(tags), "tags:", tags)
 print(len(all_words), "unique stemmed words:", all_words)
+
+# create training data
+X_train = []
+y_train = []
+for (pattern_sentence, tag) in xy:
