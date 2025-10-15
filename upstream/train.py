@@ -103,3 +103,13 @@ for epoch in range(num_epochs):
         # labels = torch.max(labels, 1)[1]
         loss = criterion(outputs, labels)
         
+        # Backward and optimize
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        
+    if (epoch+1) % 100 == 0:
+        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+
+
+print(f'final loss: {loss.item():.4f}')
